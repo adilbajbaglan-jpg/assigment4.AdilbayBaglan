@@ -1,0 +1,36 @@
+Nu HTML Checker: all three HTML pages passed with zero HTML errors.
+Chromium: 32 specified validation checks passed.
+Initial feedback hidden; Task 1 reset and 375px overflow checks passed.
+
+full-name | Anna-Maria Lee | Accepted | PASS
+full-name | A | Rejected | PASS
+university-email | a.fedenko@astanait.edu.kz | Accepted | PASS
+university-email | a.fedenko | Rejected | PASS
+university-email | a.fedenko@ | Rejected | PASS
+age | 18 | Accepted | PASS
+age | 15 | Rejected | PASS
+age | 31 | Rejected | PASS
+team-size | 4 | Accepted | PASS
+team-size | 5 | Rejected | PASS
+team-size | 2.5 | Rejected | PASS
+arrival | 2026-11-21 | Accepted | PASS
+arrival | 2026-11-25 | Rejected | PASS
+check-in | 10:30 | Accepted | PASS
+check-in | 10:15 | Rejected | PASS
+check-in | 19:00 | Rejected | PASS
+entry-fee | 1500 | Accepted | PASS
+entry-fee | 1250 | Rejected | PASS
+entry-fee | 6000 | Rejected | PASS
+github | (empty) | Accepted | PASS
+github | https://github.com/yerassyl-dev | Accepted | PASS
+github | github.com/yerassyl-dev | Rejected | PASS
+password | Astana2026 | Accepted | PASS
+password | short | Rejected | PASS
+motivation | 120 characters | Accepted | PASS
+motivation | 49 characters | Rejected | PASS
+track | Web | Accepted | PASS
+track | Choose... | Rejected | PASS
+experience | nothing chosen | Rejected | PASS
+experience | Beginner | Accepted | PASS
+rules | not ticked | Rejected | PASS
+rules | ticked | Accepted | PASS

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reserve a table</title>
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="container py-4">
+  <section class="form-card mx-auto" aria-labelledby="title">
+    <header><h1 id="title">Reserve a table</h1></header>
+    <form action="task3.html" method="get" class="p-4"><div class="row g-3"><div class="col-12 col-md-6"><label class="form-label" for="name">Your name</label>
+<input class="form-control" type="text" id="name" name="name" required autocomplete="name">
+</div><div class="col-12 col-md-6"><label class="form-label" for="email">Email</label>
+<input class="form-control" type="email" id="email" name="email" required autocomplete="email">
+</div><div class="col-12 col-md-6"><label class="form-label" for="phone">Phone</label>
+<input class="form-control" type="tel" id="phone" name="phone" required autocomplete="tel">
+</div><div class="col-12 col-md-6"><label class="form-label" for="guests">Guests</label>
+<input class="form-control" type="number" id="guests" name="guests" required min="1" step="1">
+</div><div class="col-12 col-md-6"><label class="form-label" for="date">Date</label>
+<input class="form-control" type="date" id="date" name="date" required>
+</div><div class="col-12 col-md-6"><label class="form-label" for="meal">Meal</label>
+<select class="form-select" id="meal" name="meal" required><option value="">Choose...</option><option value="lunch">Lunch</option><option value="dinner">Dinner</option></select>
+</div><fieldset class="col-12"><legend class="form-label">Seating</legend><div class="form-check form-check-inline"><input class="form-check-input" type="radio" id="seating-0" name="seating" value="Inside" required><label class="form-check-label" for="seating-0">Inside</label></div><div class="form-check form-check-inline"><input class="form-check-input" type="radio" id="seating-1" name="seating" value="Terrace" required><label class="form-check-label" for="seating-1">Terrace</label></div></fieldset><div class="col-12"><label class="form-label" for="comments">Comments</label><textarea class="form-control" name="comments" id="comments" rows="3"></textarea></div>
+<div class="col-12"><div class="form-check"><input type="checkbox" class="form-check-input" name="terms" value="accepted" id="terms" required><label class="form-check-label" for="terms">I agree to the terms</label></div></div>
+<div class="col-12"><button type="submit" class="btn btn-find">Reserve</button></div></div></form>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@font-face {font-family: Montserrat; font-style: normal; font-weight: 400; font-display: swap; src: url('assets/montserrat-400.ttf') format('truetype');}
+@font-face {font-family: Montserrat; font-style: normal; font-weight: 500; font-display: swap; src: url('assets/montserrat-500.ttf') format('truetype');}
+@font-face {font-family: Montserrat; font-style: normal; font-weight: 600; font-display: swap; src: url('assets/montserrat-600.ttf') format('truetype');}
+@font-face {font-family: Montserrat; font-style: normal; font-weight: 700; font-display: swap; src: url('assets/montserrat-700.ttf') format('truetype');}
+body {background: #E6EFEC; color: #16302B; font-family: Montserrat, sans-serif;}
+.form-card {max-width: 64rem; background: white; border-radius: 1.5rem; box-shadow: 0 1rem 2rem #16302b26; overflow: hidden;}
+header {background: #0F6B5F; color: white; padding: 1.6rem 2.8rem;}
+h1 {font-size: 1.65rem; font-weight: 700; margin: 0;}
+.form-label {font-weight: 600; font-size: .9rem; margin-bottom: .45rem;}
+legend.form-label {float: none; width: auto;}
+.form-control, .form-select {background-color: #F4F7F5; border-color: #d5e1dc; border-radius: .7rem; color: #16302B;}
+.form-control:focus, .form-select:focus {border-color: #0F6B5F; box-shadow: 0 0 0 .2rem #0f6b5f30;}
+.city-field {background: #F4F7F5; border: 1px solid #d5e1dc; border-radius: .7rem; padding: .4rem .8rem;}
+.city-field label {display: block; font-size: .75rem; color: #53665f;}
+.city-field input {border: 0; padding: 0; background: transparent;}
+.input-group-text {background: #0F6B5F; color: white; border-color: #0F6B5F;}
+.form-check-input:checked {background-color: #0F6B5F; border-color: #0F6B5F;}
+.btn {border-radius: 2rem; padding: .65rem 1.7rem; font-weight: 600;}
+.btn-find {background: #F2A93B; color: #16302B; border: 1px solid #F2A93B;}
+.btn-find:hover {background: #e69a25; border-color: #e69a25;}
+.btn-clear {background: white; border: 1px solid #16302B; color: #16302B;}
+.btn-clear:hover {background: #E6EFEC;}
+.trip .btn {border: 1px solid #0F6B5F; color: #0F6B5F; padding: .5rem 1.4rem;}
+.trip .btn-check:checked + .btn {background: #0F6B5F; color: white;}
+:focus-visible, .btn-check:focus-visible + .btn {outline: 3px solid #16302B; outline-offset: 3px;}
+input:user-invalid, select:user-invalid, textarea:user-invalid {border-color: #b42318;}
+input:user-invalid ~ .invalid-feedback, select:user-invalid ~ .invalid-feedback, textarea:user-invalid ~ .invalid-feedback, fieldset:has(input:user-invalid) > .group-error {display: block; color: #b42318;}
+input:user-valid:not([type="radio"]):not([type="checkbox"]), select:user-valid, textarea:user-valid {border-color: #0F6B5F;}
+@media (max-width: 767.98px) {header {padding: 1.3rem 1.5rem;} h1 {font-size: 1.25rem;} .form-card {border-radius: 1.1rem;} .trip {display: flex;} .trip .btn {padding-inline: 1rem;} .form-check-inline {margin-right: .65rem;} }
